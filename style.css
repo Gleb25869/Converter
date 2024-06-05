@@ -1,0 +1,23 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.btn{
+    margin: 15px;
+}
+
+.convertor{
+    margin-top: 300px;
+    justify-content: center;
+}
+
+.convertor input{
+    margin-top: 5px;
+    border-radius: 7px;
+}
+
+.convertor select{
+    color: black;
+    border-radius: 5px;
+}
