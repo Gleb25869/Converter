@@ -17,7 +17,7 @@
 
     <h1>Конвертер валют</h1>
 
-    <input id="wallet">
+    <input id="wallet-td">
     <select id="wallet">
       <option disabled selected>-- Выберите валюту --</option>
         <option id="rub">RUB</option>
@@ -27,6 +27,7 @@
         <option id="try">TRY</option>
     </select>
 
+    <div class=""><button class="btn btn-dark cnv">↑↓</button></div>
     
     <div>
         <input id="wallet1">
@@ -41,9 +42,7 @@
     </div>
 </div>
   
-    <button class="btn btn-dark" id="reset" onclick="location.reload(); return false">Отменить</button>
-    <button class="btn btn-dark" id="reset" onclick="alert(Object.entries(rdmp).join('\n'));">Посмотреть RoadMap</button>
-
+    <button class="btn btn-dark" id="reset" onclick="location.reload(); return false">Конвертировать</button>
 
 
 </body>
