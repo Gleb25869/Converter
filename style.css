@@ -8,8 +8,10 @@
 }
 
 .convertor{
-    margin-top: 300px;
+    margin-top: 250px;
     justify-content: center;
+    border: 3 px solid red;
+    padding: 5px;
 }
 
 .convertor input{
